@@ -110,3 +110,13 @@ C:\Users\sergi\Desktop\[Bases1]\Prueba\Proyecto2BD1\Proyecto2BD1\obj\Debug\netco
 C:\Users\sergi\Desktop\[Bases1]\Prueba\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Categoria\Delete.g.cshtml.cs
 C:\Users\sergi\Desktop\[Bases1]\Prueba\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Producto\Delete.g.cshtml.cs
 C:\Users\sergi\Desktop\[Bases1]\Prueba\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Descuento\Create.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Administrador\Create.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Administrador\Index.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Categoria\Create.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Categoria\Delete.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Create.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Descuento\Create.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Producto\Create.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Producto\Delete.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Producto\Edit.g.cshtml.cs
+C:\Users\danie\source\repos\Proyecto2BD1\Proyecto2BD1\obj\Debug\netcoreapp2.1\Razor\Views\Proveedor\Create.g.cshtml.cs
