@@ -1,0 +1,171 @@
+﻿@model Proyecto2BD1.proyecto2.Categoria
+
+@{
+    var Empleado = (String)ViewData["empleado"];
+    var Nombre = (String)ViewData["nombre"];
+    ViewData["Title"] = "Create";
+}
+
+<style type="text/css">
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #header {
+        margin: auto;
+        width: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul, ol {
+        list-style: none;
+    }
+
+    .nav li a {
+        background-color: #000000;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+
+    .nav a:hover {
+        background-color: #434343;
+    }
+
+    .nav > li {
+        float: left;
+    }
+
+    .nav li ul {
+        display: none;
+        position: absolute;
+        min-width: 140px;
+    }
+
+    .nav li:hover > ul {
+        display: block;
+    }
+
+    .nav li ul li {
+        position: relative;
+    }
+
+        .nav li ul li ul {
+            right: -140px;
+            top: 0px;
+        }
+</style>
+
+<div class="text-right">
+    <h3>Catedratico: @Nombre -- Codigo: @Empleado </h3>
+    <a class="btn btn-primary btn-sm ml-auto" asp-area="" asp-controller="Home" asp-action="Index">Logout</a>
+</div>
+
+<div class="home_content text-center">
+    <h2>Modulo Administrador2</h2>
+</div>
+
+<head>
+    <div id="header" class="home_content text-center">
+        <ul class="nav">
+
+            <li>
+                <a href="">Administrador</a>
+                <ul>
+                    <li><a asp-controller="Administrador" asp-action="Index">Log Actividades</a></li>
+                    <li><a asp-controller="Administrador" asp-action="Create">Usuarios</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="">Caja </a>
+                <ul>
+                    <li><a href="">Movimiento Diario</a></li>
+                    <li><a href="">Otros Egresos</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="">Ventas </a>
+                <ul>
+                    <li><a href="">Registrar Venta</a></li>
+                    <li><a href="">Facturacion</a></li>
+                    <li><a href="">Reportes</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="">Cliente </a>
+                <ul>
+                    <li><a asp-controller="Cliente" asp-action="Create">Registro Cliente</a></li>
+                    <li><a href="">Historial Cliente</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="">Categoria </a>
+                <ul>
+                    <li>
+                        <a asp-controller="Categoria" asp-action="Create">Registrar Categoria</a>
+                        <ul>
+                            <li><a asp-controller="Categoria" asp-action="Create">Crear</a></li>
+                            <li><a asp-controller="Categoria" asp-action="Edit">Editar</a></li>
+                            <li><a asp-controller="Categoria" asp-action="Delete">Eliminar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Consultar</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="">Productos </a>
+                <ul>
+                    <li>
+                        <a asp-controller="Producto" asp-action="Create">Registrar Producto</a>
+                        <ul>
+                            <li><a asp-controller="Producto" asp-action="Create">Crear</a></li>
+                            <li><a asp-controller="Producto" asp-action="Edit">Editar</a></li>
+                            <li><a asp-controller="Producto" asp-action="Delete">Eliminar</a></li>
+                            <li><a asp-controller="Descuento" asp-action="Create">Descuento</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Inventario</a></li>
+                    <li><a href="">Compras</a></li>
+                    <li><a asp-controller="Proveedor" asp-action="Create">Proveedores</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</head>
+
+<h2>Create</h2>
+
+<h4>Categoria</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Categoria1" class="control-label"></label>
+                <input asp-for="Categoria1" class="form-control" />
+                <span asp-validation-for="Categoria1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
