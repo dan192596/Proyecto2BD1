@@ -8,10 +8,11 @@ namespace Proyecto2BD1.proyecto2
         public int NoFactura { get; set; }
         public DateTime? Fecha { get; set; }
         public decimal? Total { get; set; }
+        public int EmpleadoRegistro { get; set; }
         public int ProveedorProveedor { get; set; }
-        public int DetalleCompra { get; set; }
+        //public int DetalleCompra { get; set; }
 
-        public DetalleCompra DetalleCompraNavigation { get; set; }
+        //public DetalleCompra DetalleCompraNavigation { get; set; }
         public Proveedor ProveedorProveedorNavigation { get; set; }
     }
 }

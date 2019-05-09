@@ -146,8 +146,8 @@ namespace Proyecto2BD1.proyecto2
 
                 entity.ToTable("compra", "proyecto2");
 
-                entity.HasIndex(e => e.DetalleCompra)
-                    .HasName("compra_detalle_compra_fk");
+                /*entity.HasIndex(e => e.DetalleCompra)
+                    .HasName("compra_detalle_compra_fk");*/
 
                 entity.HasIndex(e => e.ProveedorProveedor)
                     .HasName("compra_proveedor_fk");
@@ -157,9 +157,9 @@ namespace Proyecto2BD1.proyecto2
                     .HasColumnType("int(11)")
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.DetalleCompra)
+                /*entity.Property(e => e.DetalleCompra)
                     .HasColumnName("detalle_compra")
-                    .HasColumnType("int(11)");
+                    .HasColumnType("int(11)");*/
 
                 entity.Property(e => e.Fecha)
                     .HasColumnName("fecha")
@@ -173,11 +173,11 @@ namespace Proyecto2BD1.proyecto2
                     .HasColumnName("total")
                     .HasColumnType("decimal(10,2)");
 
-                entity.HasOne(d => d.DetalleCompraNavigation)
+                /*entity.HasOne(d => d.DetalleCompraNavigation)
                     .WithMany(p => p.Compra)
                     .HasForeignKey(d => d.DetalleCompra)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("compra_detalle_compra_fk");
+                    .HasConstraintName("compra_detalle_compra_fk");*/
 
                 entity.HasOne(d => d.ProveedorProveedorNavigation)
                     .WithMany(p => p.Compra)
