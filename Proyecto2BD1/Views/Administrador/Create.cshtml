@@ -116,7 +116,7 @@
                             <li><a asp-controller="Categoria" asp-action="Delete">Eliminar</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Consultar</a></li>
+                    <li><a asp-controller="Categoria" asp-action="Index">Consultar</a></li>
                 </ul>
             </li>
     
@@ -132,7 +132,23 @@
                             <li><a asp-controller="Descuento" asp-action="Create">Descuento</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Inventario</a></li>
+                    <li>
+                        <a href="">Inventario</a>
+                        <ul>
+                            <li><a asp-controller="Categoria" asp-action="Index">Productos por categoria</a></li>
+                            <li>
+                                <a href="">Reportes</a>
+                                <ul>
+                                    <li><a asp-controller="InventarioReporte" asp-action="Reporte1">Productos mas vendidos</a></li>
+                                    <li><a asp-controller="InventarioReporte" asp-action="Reporte2">Productos sin existencia</a></li>
+                                    <li><a asp-controller="InventarioReporte" asp-action="Reporte3">Productos mas comprados</a></li>
+                                    <li><a asp-controller="InventarioReporte" asp-action="Reporte4">Productos con descuento</a></li>
+                                    <li><a asp-controller="InventarioReporte" asp-action="Reporte5">Mejores Proveedores</a></li>
+                                    <li><a asp-controller="InventarioReporte" asp-action="Reporte6">Ver todos los productos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                     <li><a asp-controller="Compra" asp-action="Create">Compras</a></li>
                     <li><a asp-controller="Proveedor" asp-action="Create">Proveedores</a></li>
                 </ul>

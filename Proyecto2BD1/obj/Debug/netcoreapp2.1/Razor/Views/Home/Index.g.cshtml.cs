@@ -64,7 +64,7 @@ using Proyecto2BD1.Models;
             WriteLiteral("\r\n\r\n\r\n<div class=\"home_content text-center\">\r\n    <h2>Login</h2>\r\n</div>\r\n\r\n<div class=\"row tex\">\r\n    <div class=\"grid-container\">\r\n        <div class=\"LOGIN\">\r\n            <div class=\"log\">\r\n                ");
             EndContext();
             BeginContext(254, 1190, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6312258a8b944329b095f2f972658fd5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0cd95f7842c140c8a66d2eee33624b59", async() => {
                 BeginContext(280, 788, true);
                 WriteLiteral(@"
                     <div class=""form-group"">
@@ -83,7 +83,7 @@ using Proyecto2BD1.Models;
                             ");
                 EndContext();
                 BeginContext(1068, 52, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb475545b108472caae6f296622ba2af", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0bacf61373e644c1a8bb3a563ecb797f", async() => {
                     BeginContext(1098, 13, true);
                     WriteLiteral("Administrador");
                     EndContext();
@@ -105,7 +105,7 @@ using Proyecto2BD1.Models;
                 WriteLiteral("\r\n                            ");
                 EndContext();
                 BeginContext(1150, 42, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b00e62a2901345f797959f6a5758e7ac", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18e2953aef3f43998b9577f4485c02f7", async() => {
                     BeginContext(1175, 8, true);
                     WriteLiteral("Empleado");
                     EndContext();
